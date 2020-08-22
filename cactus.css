@@ -7,7 +7,7 @@
 	--text-bright: #ded;
 	--text-form: #bbb;
 	--border: #040;
-	--button-hover: #051;;
+	--button-hover: #051;
 	--link: #0c0;
 	--list: #090;
 	--highlight: #7bf55b;
@@ -382,6 +382,10 @@ details {
   border-radius: 10px;
   overflow: hidden;
 	outline: none;
+}
+
+summary:hover {
+	cursor: pointer;
 }
 
 summary:focus{
