@@ -8,7 +8,7 @@
 	--text-bright: #ded;
 	--text-form: #ccc;
 	--border: #040;
-	--button-hover: #051;
+	--button-hover: #276027;
 	--link: #0c0;
 	--list: #090;
 	--highlight: #7bf55b;
@@ -28,7 +28,7 @@
 
 body {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  background-color: var(--background)/*#01543a*/;
+  background-color: var(--background);
 	margin: 10 auto;
 	padding: 0 2vw;
 	color: var(--text);
@@ -408,7 +408,7 @@ details[open] summary {
 summary {
   display: list-item;
   background-color: var(--background-form);
-  padding: 10px;
+  padding: 12.5px;
   margin: -10px -10px 0;
 }
 
