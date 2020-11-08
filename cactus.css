@@ -1,6 +1,7 @@
 :root {
 	--background: #123f12;
 	--background-form: #235023;
+	--background-button: #262;
 	--background-alt: #457245;
 	--background-alt-alt: #346534;
 	--text: #97b09b;
@@ -11,7 +12,7 @@
 	--link: #0c0;
 	--list: #090;
 	--highlight: #7bf55b;
-	--focus: #0d0;
+	--focus: #373;
 	--arrow: #172;
 	--checked: #020;
 	--code: #a7a7a7;
@@ -107,11 +108,11 @@ input, button, textarea, select {
   border-radius: 10px;
   outline: none;
   color: var(--text-form);
-  background-color: var(--background-form);
+  background-color: var(--background-button);
 }
 
 input:focus, select:focus, button:focus, textarea:focus {
-  box-shadow: 0 0 0 1px var(--focus);
+  box-shadow: 0 0 0 2px var(--focus);
 }
 
 
